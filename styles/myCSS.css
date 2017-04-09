@@ -1,0 +1,48 @@
+.square {
+	width:20px;
+	height:20px;
+	display: inline-block;
+	margin:auto;
+	padding: 0;
+}
+.rows {
+	width:320px;
+	height:20px;
+	margin:0 auto;
+	padding: 0;
+}
+.container {
+	width:400px;
+	height:320px;
+	margin:0 auto;
+	border:1px solid black;
+}
+.lit {
+	background-color:red;
+}
+input {
+	width:80px;
+}
+input:focus {
+	outline: none;
+}
+#reset {
+	border:none;
+	height:40px;
+	width:80px;
+	padding:5px;
+	border-radius: 2px;
+	background-color: turquoise;
+	color:#666;
+}
+#reset:focus {
+	outline:none;
+}
+.buttons {
+	width:400px;
+	height:20px;
+	margin:0 auto;
+	display:flex;
+	justify-content: space-around;
+	padding:10px;
+}
