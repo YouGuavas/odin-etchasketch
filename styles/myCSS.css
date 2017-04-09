@@ -1,19 +1,15 @@
 .square {
-	width:20px;
-	height:20px;
 	display: inline-block;
 	margin:auto;
 	padding: 0;
 }
 .rows {
-	width:320px;
-	height:20px;
 	margin:0 auto;
 	padding: 0;
 }
 .container {
-	width:400px;
-	height:320px;
+	width:600px;
+	height:600px;
 	margin:0 auto;
 	border:1px solid black;
 }
@@ -40,9 +36,9 @@ input:focus {
 }
 .buttons {
 	width:400px;
-	height:20px;
+	height:40px;
 	margin:0 auto;
 	display:flex;
-	justify-content: space-around;
+	justify-content: center;
 	padding:10px;
 }
