@@ -1,21 +1,55 @@
-body {width: 100%;height: 100%;}
+body {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
 .square {
 	display: inline-block;
 	margin:auto;
 	padding: 0;
+	border:1px solid white;
+	box-sizing: border-box;
 }
 .rows {
 	margin:0 auto;
 	padding: 0;
+	box-sizing: border-box;
+}
+.etcha {
+	height:800px;
+	width: 1200px;
+	background-color: red;
+	margin: 10px auto;
+	border-radius: 10px;
+	box-shadow: 3px -3px 6px grey;
+}
+.myKnobs {
+	padding-right: 10px;
+	padding-left:10px;
+	margin: 30px auto;
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+}
+.myKnobs>div {
+	height:90px;
+	width: 90px;
+	border-radius: 50%;
+	background-color: white;
+	box-shadow: 5px 5px 10px black;
 }
 .container {
-	width:600px;
+	width:800px;
+	background-color: black;
 	height:600px;
 	margin:0 auto;
-	border:1px solid black;
+	border:1px solid white;
+	box-sizing: border-box;
 }
 .lit {
-	background-color:red;
+	background-color:white;
+	box-sizing: border-box;
+	border:1px solid black;
 }
 input {
 	width:80px;
@@ -24,20 +58,25 @@ input:focus {
 	outline: none;
 }
 #reset {
-	border:none;
 	height:40px;
 	width:80px;
 	padding:5px;
+	box-sizing: border-box;
+	border:1px solid white;
 	border-radius: 2px;
-	background-color: turquoise;
-	color:#666;
+	background-color: white;
+	color:black;
+}
+#reset:hover {
+	background-color: black;
+	color:white;
 }
 #reset:focus {
 	outline:none;
 }
 .buttons {
 	width:400px;
-	height:40px;
+	height:60px;
 	margin:0 auto;
 	display:flex;
 	justify-content: center;
